@@ -32,3 +32,6 @@ clean:
 	rm -rf $(OUT_DIR)
 
 ci: clean check test
+
+count: build ## report how many words were built
+	@wc -w $(OUTPUTS) | tail -1

@@ -1,3 +1,6 @@
-# Build output and logs
+# Build output (out/) and logs (*.log)
 out/
 *.log
+# Editor swap files
+*.swp
+*~
